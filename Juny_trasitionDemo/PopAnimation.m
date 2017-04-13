@@ -12,7 +12,7 @@
 
 @implementation PopAnimation
 - (NSTimeInterval)transitionDuration:(id <UIViewControllerContextTransitioning>)transitionContext{
-    return 0.3f;
+    return 0.6f;
 }
 
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext{
@@ -44,30 +44,30 @@
     //
     
     //发生动画
-//    [UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0.0f usingSpringWithDamping:0.6f initialSpringVelocity:1.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
-//        fromVC.view.alpha = 0.0f;
-//        snapShotView.frame = toVC.finalCellRect;
-//    } completion:^(BOOL finished) {
-//        [snapShotView removeFromSuperview];
-//        fromVC.imageView.hidden = NO;
-//        cell.imageView.hidden = NO;
-//        [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
-//    }];
-    
-    //发生动画
-    [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
-        
+    [UIView animateWithDuration:[self transitionDuration:transitionContext] delay:0.0f usingSpringWithDamping:0.6f initialSpringVelocity:1.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         snapShotView.frame = toVC.finalCellRect;
-        
     } completion:^(BOOL finished) {
-        
+       
         fromVC.imageView.hidden = NO;
         cell.imageView.hidden = NO;
         [snapShotView removeFromSuperview];
+        [transitionContext completeTransition:![transitionContext transitionWasCancelled]];;
         
     }];
     
-      [transitionContext completeTransition:![transitionContext transitionWasCancelled]];
+    //发生动画
+//    [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
+//        
+//        snapShotView.frame = toVC.finalCellRect;
+//        
+//    } completion:^(BOOL finished) {
+//        
+//        fromVC.imageView.hidden = NO;
+//        cell.imageView.hidden = NO;
+//        [snapShotView removeFromSuperview];
+//        
+//    }];
+  
 }
 
 @end
