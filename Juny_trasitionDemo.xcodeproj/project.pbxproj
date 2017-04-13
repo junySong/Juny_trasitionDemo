@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112FE1661E9F0FF600E254B2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112FE1651E9F0FF600E254B2 /* RootViewController.m */; };
+		112FE1691E9F17EA00E254B2 /* PushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 112FE1681E9F17EA00E254B2 /* PushAnimation.m */; };
+		112FE16C1E9F185B00E254B2 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 112FE16B1E9F185B00E254B2 /* PopAnimation.m */; };
+		112FE16E1E9F1C7300E254B2 /* IMG_0387.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 112FE16D1E9F1C7300E254B2 /* IMG_0387.jpg */; };
 		1166890B1E9E320B00C6A953 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1166890A1E9E320B00C6A953 /* main.m */; };
 		1166890E1E9E320B00C6A953 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1166890D1E9E320B00C6A953 /* AppDelegate.m */; };
 		116689111E9E320B00C6A953 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116689101E9E320B00C6A953 /* ViewController.m */; };
@@ -36,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		112FE1641E9F0FF600E254B2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		112FE1651E9F0FF600E254B2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		112FE1671E9F17EA00E254B2 /* PushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAnimation.h; sourceTree = "<group>"; };
+		112FE1681E9F17EA00E254B2 /* PushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAnimation.m; sourceTree = "<group>"; };
+		112FE16A1E9F185B00E254B2 /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
+		112FE16B1E9F185B00E254B2 /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+		112FE16D1E9F1C7300E254B2 /* IMG_0387.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0387.jpg; sourceTree = "<group>"; };
 		116689061E9E320B00C6A953 /* Juny_trasitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juny_trasitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1166890A1E9E320B00C6A953 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1166890C1E9E320B00C6A953 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,10 +114,17 @@
 		116689081E9E320B00C6A953 /* Juny_trasitionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				112FE16D1E9F1C7300E254B2 /* IMG_0387.jpg */,
 				1166890C1E9E320B00C6A953 /* AppDelegate.h */,
 				1166890D1E9E320B00C6A953 /* AppDelegate.m */,
 				1166890F1E9E320B00C6A953 /* ViewController.h */,
 				116689101E9E320B00C6A953 /* ViewController.m */,
+				112FE1641E9F0FF600E254B2 /* RootViewController.h */,
+				112FE1651E9F0FF600E254B2 /* RootViewController.m */,
+				112FE1671E9F17EA00E254B2 /* PushAnimation.h */,
+				112FE1681E9F17EA00E254B2 /* PushAnimation.m */,
+				112FE16A1E9F185B00E254B2 /* PopAnimation.h */,
+				112FE16B1E9F185B00E254B2 /* PopAnimation.m */,
 				116689121E9E320B00C6A953 /* Main.storyboard */,
 				116689181E9E320B00C6A953 /* Assets.xcassets */,
 				1166891A1E9E320B00C6A953 /* LaunchScreen.storyboard */,
@@ -253,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1166891C1E9E320B00C6A953 /* LaunchScreen.storyboard in Resources */,
+				112FE16E1E9F1C7300E254B2 /* IMG_0387.jpg in Resources */,
 				116689191E9E320B00C6A953 /* Assets.xcassets in Resources */,
 				116689141E9E320B00C6A953 /* Main.storyboard in Resources */,
 			);
@@ -281,8 +300,11 @@
 			files = (
 				116689111E9E320B00C6A953 /* ViewController.m in Sources */,
 				1166890E1E9E320B00C6A953 /* AppDelegate.m in Sources */,
+				112FE1691E9F17EA00E254B2 /* PushAnimation.m in Sources */,
 				116689171E9E320B00C6A953 /* Juny_trasitionDemo.xcdatamodeld in Sources */,
+				112FE16C1E9F185B00E254B2 /* PopAnimation.m in Sources */,
 				1166890B1E9E320B00C6A953 /* main.m in Sources */,
+				112FE1661E9F0FF600E254B2 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -421,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -522,6 +544,7 @@
 				116689381E9E320B00C6A953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		116689391E9E320B00C6A953 /* Build configuration list for PBXNativeTarget "Juny_trasitionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +553,7 @@
 				1166893B1E9E320B00C6A953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1166893C1E9E320B00C6A953 /* Build configuration list for PBXNativeTarget "Juny_trasitionDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +562,7 @@
 				1166893E1E9E320B00C6A953 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
